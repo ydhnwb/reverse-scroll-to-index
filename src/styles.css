@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 20px;
+}
+
+.ListItemOdd {
+  background-color: antiquewhite;
+}
+
+.list {
+  display: grid;
+  align-items: center;
+  height: 100%;
+  padding: 2px;
+}
